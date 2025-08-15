@@ -10,12 +10,12 @@ import { getStorage } from "firebase/storage";
 // Your web app's Firebase configuration
 // This object was provided by the Firebase Console.
 const firebaseConfig = {
-  apiKey: "AIzaSyD7KOGlVw2lvUh1dZCytr00wsErRnscre4",
-  authDomain: "kadu-academy.firebaseapp.com",
+  apiKey: "AIzaSyD7KOGlVw2lvUh1dZCytr00wsXXXXXXXXX",
+  authDomain: "XXXXXXXXX.firebaseapp.com",
   projectId: "kadu-academy",
-  storageBucket: "kadu-academy.firebasestorage.app",
-  messagingSenderId: "21669021948",
-  appId: "1:21669021948:web:7479893bea8bff2b11af79",
+  storageBucket: "XXXXXXXXX.firebasestorage.app",
+  messagingSenderId: "216690XXXXXXXXX",
+  appId: "1:21669021948:web:7479893bea8bff2bXXXXXXXXX",
   measurementId: "G-90V23VPWTX"
 };
 
