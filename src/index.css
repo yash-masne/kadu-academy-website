@@ -1,0 +1,45 @@
+/* src/index.css */
+@import "tailwindcss";
+
+/* Import Google Fonts and KaTeX styling */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap&subset=latin,latin-ext');
+
+
+/* Global styles */
+html, body, #root {
+  height: 100%; /* Ensure full viewport height */
+  width: 100%;  /* Ensure full viewport width */
+  margin: 0;    /* Remove default browser margin */
+  padding: 0;   /* Remove default browser padding */
+  overflow-x: hidden; /* Prevent horizontal scroll bar */
+  font-family: 'Inter', sans-serif; /* Your custom font */
+  overflow: visible;
+}
+
+body {
+  font-family: 'Inter', sans-serif; /* Your custom font */
+}
+
+/* Animations */
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: .5; }
+}
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.5s ease-out forwards;
+}
