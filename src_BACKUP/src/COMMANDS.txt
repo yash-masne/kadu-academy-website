@@ -1,7 +1,0 @@
-npm run build
-
-firebase deploy --only hosting --project kadu-academy
-
-cd C:\Users\yashm\project\kadu_academy_website\my-admin-panel-web
-
-npm run dev
